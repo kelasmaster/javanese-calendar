@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javanese Calendar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Javanese Calendar App</h1>
+    <div class="input-section">
+      <label for="gregorian-date">Enter Gregorian Date:</label>
+      <input type="date" id="gregorian-date">
+      <button id="convert-btn">Convert</button>
+    </div>
+    <div class="output-section">
+      <h2>Converted Javanese Date:</h2>
+      <p><strong>Year:</strong> <span id="javanese-year"></span></p>
+      <p><strong>Month:</strong> <span id="javanese-month"></span></p>
+      <p><strong>Day:</strong> <span id="javanese-day"></span></p>
+      <p><strong>Pancawara:</strong> <span id="pancawara"></span></p>
+      <p><strong>Saptawara:</strong> <span id="saptawara"></span></p>
+      <h3>Cultural Notes:</h3>
+      <p id="cultural-notes"></p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
